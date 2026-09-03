@@ -2,11 +2,8 @@ import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
-// @ts-expect-error CSS imports are handled by Next.js at runtime.
 import "./globals.css";
-// @ts-expect-error CSS imports are handled by Next.js at runtime.
 import "@stream-io/video-react-sdk/dist/css/styles.css";
-// @ts-expect-error CSS imports are handled by Next.js at runtime.
 import "react-datepicker/dist/react-datepicker.css";
 import { Toaster } from "@/components/ui/toaster";
 
