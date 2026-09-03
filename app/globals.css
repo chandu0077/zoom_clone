@@ -113,3 +113,7 @@
     width: 100%;
   }
 }
+
+img.cl-providerIcon__github {
+  filter: brightness(0) invert(1);
+}
